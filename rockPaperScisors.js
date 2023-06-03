@@ -81,7 +81,6 @@ const winner = (input, computerOutput) => {
     }    
 };
 
-//const askInput = () => console.log(`Type "R"(rock), "P"(paper), "S"(scissors)`);
 const updateWins = (results) => results.Wins += 1;
 const updateLoss = (results) => results.Loss += 1;
 const printResults = () => console.log("\n", results);
